@@ -24,7 +24,7 @@ function ViewModel() {
         checkAns: function () {
             let ans = eval(String(viewModel.firstNum) + "+" + String(viewModel.secondNum))
             if (String(viewModel.answer).length > 0) {
-                if (String(ans) === viewModel.answer) {
+                if (String(ans) === String(viewModel.answer)) {
                     viewModel.comment = "Correct! Very Good!"
                 } else {
                     viewModel.comment = `Incorrect! correct answer is ${ans}`
