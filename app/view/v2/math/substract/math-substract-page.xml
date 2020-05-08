@@ -7,9 +7,9 @@
     </ActionBar>
     <GridLayout rows="auto, auto, auto, auto, *" margin="10">
         <GridLayout row="0" columns="*,*,*">
-            <Label col="0" text="{{ firstNum }}" class="text-center mathLabels"></Label>
+            <Image col="0" src="{{ firstImage }}" />
             <Label col="1" text="{{ symbol }}" class="text-center mathLabels"></Label>
-            <Label col="2" text="{{ secondNum }}" class="text-center mathLabels"></Label>
+            <Image col="2" src="{{ secondImage }}" />
         </GridLayout>
         <Label row="1" text="{{ comment }}" class="text-center comment"></Label>
         <GridLayout row="2" columns="*, *">

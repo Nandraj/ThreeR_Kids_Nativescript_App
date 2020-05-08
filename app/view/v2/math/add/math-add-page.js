@@ -11,11 +11,15 @@ function ViewModel() {
         secondNum: 6,
         comment: "",
         answer: "",
+        firstImage: "~/images/Mangoes/3.png",
+        secondImage: "~/images/Apples/6.png",
         newSum: function () {
             viewModel.firstNum = randomNumber(1, 9)
             viewModel.secondNum = randomNumber(1, 9)
             viewModel.comment = ""
             viewModel.answer = ""
+            viewModel.firstImage = `~/images/Mangoes/${viewModel.firstNum}.png`
+            viewModel.secondImage = `~/images/Apples/${viewModel.secondNum}.png`
         },
         showAns: function () {
             let ans = eval(String(viewModel.firstNum) + "+" + String(viewModel.secondNum))
