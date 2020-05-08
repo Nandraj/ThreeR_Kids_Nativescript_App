@@ -1,0 +1,21 @@
+.mathLabels{
+    font-size: 70%;
+}
+
+.comment {
+    color: gray;
+    font-size: 20%;
+    margin: 10;
+}
+
+.answer {
+    font-size: 35%;
+    margin: 10 10 10 20;
+    padding-left: 2;
+}
+
+.submit-btn{
+    color: #2ebf91;
+    font-weight: 600;
+    font-size: 25%;
+}

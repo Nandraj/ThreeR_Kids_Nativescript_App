@@ -1,0 +1,25 @@
+<Page loaded="pageLoaded">
+    <ActionBar title="">
+        <StackLayout orientation="horizontal">
+            <Image src="~/images/3R2C/72.png" class="action-image"></Image>
+            <Label text=" Kids" class="action-label-v2"></Label>
+        </StackLayout>
+    </ActionBar>
+    <GridLayout rows="auto, auto, auto, *, auto" margin="10">
+        <GridLayout row="0" columns="*,*,*">
+            <Label col="0" text="{{ firstNum }}" class="text-center mathLabels"></Label>
+            <Label col="1" text="{{ symbol }}" class="text-center mathLabels"></Label>
+            <Label col="2" text="{{ secondNum }}" class="text-center mathLabels"></Label>
+        </GridLayout>
+        <Label row="1" text="{{ comment }}" class="text-center comment"></Label>
+        <GridLayout row="2" columns="*, *">
+            <TextField col="0" keyboardType="number" class="answer" text="{{ answer }}"></TextField>
+            <Button col="1" text="Submit" class="-rounded-lg submit-btn" tap="{{ checkAns }}"></Button>
+        </GridLayout>
+        <Label row="3"></Label>
+        <GridLayout row="4" columns="*,*">
+            <Button col="0" tap="{{ newSum }}" text="New" class="next-prev-buttons -rounded-lg" />
+            <Button col="1" tap="{{ showAns }}" text="Answer" class="next-prev-buttons -rounded-lg" />
+        </GridLayout>
+    </GridLayout>
+</Page>
