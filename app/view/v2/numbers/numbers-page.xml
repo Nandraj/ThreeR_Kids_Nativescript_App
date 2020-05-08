@@ -1,0 +1,23 @@
+<Page loaded="pageLoaded">
+
+    <ActionBar title="">
+        <StackLayout orientation="horizontal">
+            <Image src="~/images/3R2C/72.png" class="action-image"></Image>
+            <Label text=" Kids" class="action-label-v2"></Label>
+        </StackLayout>
+    </ActionBar>
+    <GridLayout rows="*, auto">
+        <GridLayout row="0" rows="*,*,*" columns="*, *">
+            <Label row="0" col="0" text="{{ engNum }}" class="numLabel" />
+            <Label row="0" col="1" text="{{ engWord }}" class="numWordLabel" tap="{{ onEngLabelTap }}" />
+            <Label row="1" col="0" text="{{ gujNum }}" class="numLabel" />
+            <Label row="1" col="1" text="{{ gujWord }}" class="numWordLabel" tap="{{ onGujLabelTap }}" />
+            <Label row="2" col="0" text="{{ hindiNum }}" class="numLabel" />
+            <Label row="2" col="1" text="{{ hindiWord }}" class="numWordLabel" tap="{{ onHinLabelTap }}" />
+        </GridLayout>
+        <GridLayout row="1" columns="*,*">
+            <Button col="1" tap="{{ nextNum }}" text="Next" class="-rounded-lg next-prev-buttons" />
+            <Button col="0" tap="{{ prevNum }}" text="Previous" class="-rounded-lg next-prev-buttons" />
+        </GridLayout>
+    </GridLayout>
+</Page>

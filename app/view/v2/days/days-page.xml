@@ -1,0 +1,34 @@
+<Page loaded="pageLoaded">
+
+    <ActionBar title="">
+        <StackLayout orientation="horizontal">
+            <Image src="~/images/3R2C/72.png" class="action-image"></Image>
+            <Label text=" Kids" class="action-label-v2"></Label>
+        </StackLayout>
+    </ActionBar>
+    <BottomNavigation id="bottomNav" automationText="tabNavigation" selectedIndex="0">
+        <TabStrip>
+            <TabStripItem>
+                <!-- <Image src="font://&#xf15e;" stretch="none" class="fas"></Image> -->
+                <Label text="ગુજરાતી" class="h3"></Label>
+            </TabStripItem>
+            <TabStripItem>
+                <!-- <Image src="font://&#xf163;" class="fas"></Image> -->
+                <Label text="हिंदी" class="h3"></Label>
+            </TabStripItem>
+            <TabStripItem>
+                <!-- <Image src="font://&#xf1ab;" class="fas"></Image> -->
+                <Label text="English" class="h3"></Label>
+            </TabStripItem>
+        </TabStrip>
+        <TabContentItem>
+            <Frame id="guj" defaultPage="view/v2/days/guj/guj-days-page"></Frame>
+        </TabContentItem>
+        <TabContentItem>
+            <Frame id="hin" defaultPage="view/v2/days/hin/hin-days-page"></Frame>
+        </TabContentItem>
+        <TabContentItem>
+            <Frame id="eng" defaultPage="view/v2/days/eng/eng-days-page"></Frame>
+        </TabContentItem>
+    </BottomNavigation>
+</Page>

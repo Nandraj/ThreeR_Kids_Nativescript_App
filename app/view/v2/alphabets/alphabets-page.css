@@ -1,0 +1,21 @@
+.alphaLabel {
+    font-size: 150;
+    text-align: center;
+    margin: -20;
+    padding: 0;
+  }
+  
+.alphavolumeButton {
+    border-radius: 100;
+    width: 25%;
+    color: white;
+    font-size: 25;
+    margin-left: 12;
+    background-color: #2ebf91;
+  }
+  
+.spelling {
+    font-size: 50;
+    text-align: center;
+    margin-bottom: 15;
+  }

@@ -1,0 +1,30 @@
+<Page loaded="pageLoaded">
+
+    <!-- <ActionBar title=" Kids" android.icon="~/images/3R2C/96.png" android.iconVisibility="always">
+    </ActionBar> -->
+    <ActionBar title="">
+        <StackLayout orientation="horizontal">
+            <Image src="~/images/3R2C/72.png" class="action-image"></Image>
+            <Label text=" Kids" class="action-label"></Label>
+        </StackLayout>
+    </ActionBar>
+    <GridLayout rows="auto, auto, *, auto">
+        <GridLayout row="0" columns="*, *">
+            <Label col="0" text="{{ text1 }}" class="alphaLabel" />
+            <Label col="1" text="{{ text2 }}" class="alphaLabel" />
+        </GridLayout>
+        <GridLayout row="1" columns="auto, *">
+            <Button col="0" class="alphavolumeButton -primary" tap="{{ speak }}">
+                <FormattedString>
+                    <Span text="&#xf028;" class="fas"></Span>
+                </FormattedString>
+            </Button>
+            <Label col="1" text="{{ spelling }}" class="spelling" />
+        </GridLayout>
+        <Image row="2" src="{{ image }}" />
+        <GridLayout row="3" columns="*,*">
+            <Button col="1" tap="{{ nextItem }}" text="Next" class="-primary -rounded-lg" />
+            <Button col="0" tap="{{ prevItem }}" text="Previous" class="-primary -rounded-lg" />
+        </GridLayout>
+    </GridLayout>
+</Page>

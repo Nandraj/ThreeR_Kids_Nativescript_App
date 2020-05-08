@@ -1,0 +1,117 @@
+@import "~@nativescript/theme/css/core.css";
+@import "~@nativescript/theme/css/default.css";
+
+.fab {
+  font-family: "Font Awesome 5 Brands Regular", fa-brands-400;
+  /* font-weight: 400;  */
+}
+
+.fas {
+  font-family: "Font Awesome 5 Free Solid", fa-solid-900;
+  /* font-weight: 900;  */
+}
+
+.moonFonts {
+  font-family: "IcoMoon-Free", IcoMoon-Free;
+}
+
+.alphaLabel {
+  font-size: 150;
+  text-align: center;
+  margin: -20;
+  padding: 0;
+}
+
+.alphavolumeButton {
+  border-radius: 100;
+  width: 25%;
+  color: white;
+  font-size: 25;
+  /* background-color: seashell; */
+  /* margin-left: 37; */
+  margin-left: 12;
+}
+
+.spelling {
+  font-size: 50;
+  text-align: center;
+  margin-bottom: 15;
+}
+
+Image {
+  margin-bottom: 10;
+}
+
+.numLabel {
+  text-align: center;
+  font-size: 100;
+  vertical-align: center;
+}
+
+.numWordLabel {
+  text-align: center;
+  font-size: 60;
+  vertical-align: center;
+}
+
+.kLabel {
+  text-align: center;
+  font-size: 80;
+  vertical-align: center;
+  margin-left: 12;
+}
+
+.kalamLabel {
+  text-align: center;
+  font-size: 55;
+  vertical-align: center;
+}
+
+.kalamvolumeButton {
+  border-radius: 100;
+  width: 25%;
+  color: white;
+  font-size: 25;
+  /* background-color: seashell; */
+  margin-left: 37;
+}
+
+.aboutImage{
+  width: 200;
+  height: 250;
+}
+
+.action-image {
+  width: 40;
+  height: 40;
+  vertical-align: center;
+}
+
+.action-label {
+  color: #343434;
+  font-size: 24;
+  font-weight: bold;
+  vertical-align: center;
+}
+
+/* Version-2 */
+.action-label-v2 {
+  color: #8360c3;
+  font-weight: 600;
+  font-size: 24;
+  vertical-align: center;
+}
+
+.next-prev-buttons {
+  background-color: #2ebf91;
+  color: white;
+}
+
+.month-names {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 27px;
+  color: #8360c3;
+  font-weight: 500;
+}

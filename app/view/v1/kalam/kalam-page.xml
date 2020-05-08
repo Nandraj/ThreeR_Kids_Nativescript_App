@@ -1,0 +1,25 @@
+<Page loaded="pageLoaded">
+
+    <ActionBar title="">
+        <StackLayout orientation="horizontal">
+            <Image src="~/images/3R2C/72.png" class="action-image"></Image>
+            <Label text=" Kids" class="action-label"></Label>
+        </StackLayout>
+    </ActionBar>
+    <GridLayout rows="auto, *, auto">
+        <GridLayout row="0" columns="auto, *, auto">
+            <Label col="0" text="{{ kLabel }}" class="kLabel" />
+            <Label col="1" text="{{ kWord }}" class="kalamLabel" />
+            <Button col="2" class="kalamvolumeButton -primary" tap="{{ speakGuj }}">
+                <FormattedString>
+                    <Span text="&#xf028;" class="fas"></Span>
+                </FormattedString>
+            </Button>
+        </GridLayout>
+        <Image row="1" src="{{ kImg }}" />
+        <GridLayout row="2" columns="*,*">
+            <Button col="1" tap="{{ nextItem }}" text="Next" class="-primary -rounded-lg" />
+            <Button col="0" tap="{{ prevItem }}" text="Previous" class="-primary -rounded-lg" />
+        </GridLayout>
+    </GridLayout>
+</Page>

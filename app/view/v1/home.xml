@@ -1,0 +1,32 @@
+<BottomNavigation id="bottomNav" automationText="tabNavigation" selectedIndex="0">
+    <TabStrip>
+        <TabStripItem>
+            <Image src="font://&#xf15e;" stretch="none" class="fas"></Image>
+            <Label text="ABCD"></Label>
+        </TabStripItem>
+        <TabStripItem>
+            <Image src="font://&#xf163;" class="fas"></Image>
+            <Label text="Numbers"></Label>
+        </TabStripItem>
+        <TabStripItem>
+            <Image src="font://&#xf1ab;" class="fas"></Image>
+            <Label text="કખગ"></Label>
+        </TabStripItem>
+        <TabStripItem>
+            <Image src="font://&#xf129;" class="fas"></Image>
+            <Label text="About"></Label>
+        </TabStripItem>
+    </TabStrip>
+    <TabContentItem>
+        <Frame id="alphabets" defaultPage="view/v1/alphabets/alphabets-page"></Frame>
+    </TabContentItem>
+    <TabContentItem>
+        <Frame id="numbers" defaultPage="view/v1/numbers/numbers-page"></Frame>
+    </TabContentItem>
+    <TabContentItem>
+        <Frame id="kalam" defaultPage="view/v1/kalam/kalam-page"></Frame>
+    </TabContentItem>
+    <TabContentItem>
+        <Frame id="about" defaultPage="view/v1/about/about-page"></Frame>
+    </TabContentItem>
+</BottomNavigation>

@@ -1,0 +1,17 @@
+.aboutImage{
+    width: 200;
+    height: 250;
+}
+
+.aboutText{
+    color: rgba(41, 41, 216, 0.863);
+}
+
+.aboutIcons{
+    color: rgba(41, 41, 216, 0.863);
+    margin-left: 20;
+}
+
+.aboutHead{
+    color: #2ebf91;
+}

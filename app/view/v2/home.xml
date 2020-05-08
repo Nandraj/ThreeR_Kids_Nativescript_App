@@ -1,0 +1,60 @@
+<Page actionBarHidden="false">
+    <ActionBar title="">
+        <StackLayout orientation="horizontal">
+            <Image src="~/images/3R2C/72.png" class="action-image"></Image>
+            <Label text=" Kids" class="action-label-v2"></Label>
+        </StackLayout>
+    </ActionBar>
+    <ScrollView>
+        <WrapLayout orientation="horizontal" padding="10">
+            <StackLayout>
+                <Button class="home-large-buttons" tap="onTap">
+                    <FormattedString>
+                        <Span text="&#xf15e;" class="fas-button"></Span>
+                    </FormattedString>
+                </Button>
+                <Label text="Alphabets" class="h1 text-center home-button-text"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Button class="home-large-buttons" tap="onTap">
+                    <FormattedString>
+                        <Span text="&#xf163;" class="fas-button"></Span>
+                    </FormattedString>
+                </Button>
+                <Label text="Numbers" class="h1 text-center home-button-text"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Button class="home-large-buttons" tap="onTap">
+                    <FormattedString>
+                        <Span text="&#xf0cc;" class="fas-button"></Span>
+                    </FormattedString>
+                </Button>
+                <Label text="કલમ" class="h1 text-center home-button-text"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Button class="home-large-buttons" tap="onTap">
+                    <FormattedString>
+                        <Span text="&#xf185;" class="fas-button"></Span>
+                    </FormattedString>
+                </Button>
+                <Label text="Days" class="h1 text-center home-button-text"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Button class="home-large-buttons" tap="onTap">
+                    <FormattedString>
+                        <Span text="&#xf073;" class="fas-button"></Span>
+                    </FormattedString>
+                </Button>
+                <Label text="Months" class="h1 text-center home-button-text"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Button class="home-large-buttons" tap="onTap">
+                    <FormattedString>
+                        <Span text="&#xf129;" class="fas-button"></Span>
+                    </FormattedString>
+                </Button>
+                <Label text="About" class="h1 text-center home-button-text"></Label>
+            </StackLayout>
+        </WrapLayout>
+    </ScrollView>
+</Page>

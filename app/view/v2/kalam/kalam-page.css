@@ -1,0 +1,22 @@
+.kLabel {
+    text-align: center;
+    font-size: 80;
+    vertical-align: center;
+    margin-left: 12;
+}
+  
+.kalamLabel {
+    text-align: center;
+    font-size: 55;
+    vertical-align: center;
+}
+  
+.kalamvolumeButton {
+    border-radius: 100;
+    width: 25%;
+    color: white;
+    font-size: 25;
+    /* background-color: seashell; */
+    background-color: #2ebf91;
+    margin-left: 37;
+}

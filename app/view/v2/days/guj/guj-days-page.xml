@@ -1,0 +1,11 @@
+<Page actionBarHidden="true" loaded="pageLoaded">
+    <ScrollView>
+        <ListView items="{{ months }}" itemTap="{{ onItemTap }}">
+            <ListView.itemTemplate>
+                <FlexboxLayout flexDirection="row">
+                    <Label text="{{ name }}" class="month-names" verticalAlignment="center" style="width: 100%" />
+                </FlexboxLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </ScrollView>
+</Page>

@@ -1,0 +1,23 @@
+.home-large-buttons{
+    width: 43%;
+    height: 40%;
+    margin-top: 10;
+    padding: 17;
+    background-color: #2ebf91;
+    color: white;
+    border-radius: 20%;
+  }
+  
+  .fas-button {
+    font-family: "Font Awesome 5 Free Solid", fa-solid-900;
+    /* font-weight: 900;  */
+    font-size: 85%;
+  }
+  
+  .home-button-text{
+    color: #8360c3;
+    font-weight: 900;
+    margin-top: -5;
+    margin-bottom: 18;
+  }
+  
