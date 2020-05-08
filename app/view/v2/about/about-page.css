@@ -3,15 +3,19 @@
     height: 250;
 }
 
-.aboutText{
-    color: rgba(41, 41, 216, 0.863);
+.aboutHead{
+    color: #8360c3;
+    font-weight: 900;
+    margin-top: -30;
+    margin-bottom: 10;
 }
+
 
 .aboutIcons{
-    color: rgba(41, 41, 216, 0.863);
-    margin-left: 20;
+    color: #2ebf91;
+    font-size: 30;
 }
 
-.aboutHead{
-    color: #2ebf91;
+Button {
+    border-radius: 50%;
 }

@@ -11,6 +11,10 @@
   /* font-weight: 900;  */
 }
 
+.far {
+  font-family: "Font Awesome 5 Free Regular", fa-regular-400;
+}
+
 .moonFonts {
   font-family: "IcoMoon-Free", IcoMoon-Free;
 }

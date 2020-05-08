@@ -9,17 +9,32 @@
         <GridLayout rows="auto, auto, auto, *">
             <Image row="0" src="~/images/3R2C/345.png" class="aboutImage" />
             <Label row="1" text="3R Coaching Classes" class="h1 text-center aboutHead"></Label>
-            <GridLayout row="2" rows="auto, auto, auto, auto, auto" cols="*, *">
-                <Label row="0" col="0" text="&#xf879;" class="fas h2 aboutIcons" tap="doPhoneCall"></Label>
-                <Label row="0" col="1" text="+91-9737716562" class="far h2 text-center aboutText" tap="doPhoneCall"></Label>
-                <Label row="1" col="0" text="&#xf40c;" class="fab h2 aboutIcons" tap="openWhatsapp"></Label>
-                <Label row="1" col="1" text="+91-9737716562" class="far h2 text-center aboutText" tap="openWhatsapp"></Label>
-                <Label row="2" col="0" text="&#xf0e0;" class="fas h2 aboutIcons" tap="sendEmail"></Label>
-                <Label row="2" col="1" text="3rclasses@gmail.com" class="far h2 text-center aboutText" tap="sendEmail"></Label>
-                <Label row="3" col="0" text="&#xf955;" class="fab h2 aboutIcons" tap="openInstagram"></Label>
-                <Label row="3" col="1" text="@3rclasses" class="far h2 text-center aboutText" tap="openInstagram"></Label>
-                <Label row="4" col="0" text="&#xf167;" class="fab h2 aboutIcons" tap="openYtubeChannel"></Label>
-                <Label row="4" col="1" text="3R Coaching Classes" class="far h2 text-center aboutText" tap="openYtubeChannel"></Label>
+            <GridLayout row="2" columns="*, *, *, *, *">
+                <Button col="0" tap="doPhoneCall">
+                    <FormattedString>
+                        <Span text="&#xf879;" class="fas h2 aboutIcons"></Span>
+                    </FormattedString>
+                </Button>
+                <Button col="1" tap="openWhatsapp">
+                    <FormattedString>
+                        <Span text="&#xf232;" class="fab h2 aboutIcons"></Span>
+                    </FormattedString>
+                </Button>
+                <Button col="2" tap="sendEmail">
+                    <FormattedString>
+                        <Span text="&#xf0e0;" class="far h2 aboutIcons"></Span>
+                    </FormattedString>
+                </Button>
+                <Button col="3" tap="openInstagram">
+                    <FormattedString>
+                        <Span text="&#xf16d;" class="fab h2 aboutIcons"></Span>
+                    </FormattedString>
+                </Button>
+                <Button col="4" tap="openYtubeChannel">
+                    <FormattedString>
+                        <Span text="&#xf167;" class="fab h2 aboutIcons"></Span>
+                    </FormattedString>
+                </Button>
             </GridLayout>
             <Label row="3" text=""></Label>
         </GridLayout>
