@@ -5,7 +5,7 @@
             <Label text=" Kids" class="action-label-v2"></Label>
         </StackLayout>
     </ActionBar>
-    <GridLayout rows="auto, auto, auto, *, auto" margin="10">
+    <GridLayout rows="auto, auto, auto, auto, *" margin="10">
         <GridLayout row="0" columns="*,*,*">
             <Label col="0" text="{{ firstNum }}" class="text-center mathLabels"></Label>
             <Label col="1" text="{{ symbol }}" class="text-center mathLabels"></Label>
@@ -16,10 +16,10 @@
             <TextField col="0" keyboardType="number" class="answer" text="{{ answer }}"></TextField>
             <Button col="1" text="Submit" class="-rounded-lg submit-btn" tap="{{ checkAns }}"></Button>
         </GridLayout>
-        <Label row="3"></Label>
-        <GridLayout row="4" columns="*,*">
+        <GridLayout row="3" columns="*,*">
             <Button col="0" tap="{{ newSum }}" text="New" class="next-prev-buttons -rounded-lg" />
             <Button col="1" tap="{{ showAns }}" text="Answer" class="next-prev-buttons -rounded-lg" />
         </GridLayout>
+        <Label row="4"></Label>
     </GridLayout>
 </Page>
