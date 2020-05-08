@@ -16,7 +16,7 @@ function ViewModel() {
             { name: "आषाढ़" },
             { name: "श्रावण" },
             { name: "भाद्रपद" },
-            { name: "भाद्रपद" }
+            { name: "आश्विन" }
         ],
         onItemTap: function (args) {
             let currentSpelling = viewModel.months[args.index]["name"]

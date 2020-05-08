@@ -10,8 +10,14 @@ const pagePath = {
 function onTap(args) {
     const labelText = args.object.parent.getChildAt(1).text
     goToPath = pagePath[labelText]
+    var navigationEntry = {
+        moduleName: goToPath,
+        transition: {
+            name: "slideBottom"
+        }
+    }
     const page = args.object.page
-    page.frame.navigate(goToPath)
+    page.frame.navigate(navigationEntry)
 }
 
 exports.onTap = onTap
