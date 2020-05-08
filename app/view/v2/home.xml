@@ -6,7 +6,7 @@
         </StackLayout>
     </ActionBar>
     <ScrollView>
-        <WrapLayout orientation="horizontal" padding="10">
+        <WrapLayout orientation="horizontal" padding="5">
             <StackLayout>
                 <Button class="home-large-buttons" tap="onTap">
                     <FormattedString>
@@ -53,7 +53,7 @@
                         <Span text="&#xf067;" class="fas-button"></Span>
                     </FormattedString>
                 </Button>
-                <Label text="Addition" class="h1 text-center home-button-text"></Label>
+                <Label text="Add" class="h1 text-center home-button-text"></Label>
             </StackLayout>
             <StackLayout>
                 <Button class="home-large-buttons" tap="onTap">
@@ -61,7 +61,7 @@
                         <Span text="&#xf068;" class="fas-button"></Span>
                     </FormattedString>
                 </Button>
-                <Label text="Substraction" class="h1 text-center home-button-text"></Label>
+                <Label text="Substract" class="h1 text-center home-button-text"></Label>
             </StackLayout>
             <StackLayout>
                 <Button class="home-large-buttons" tap="onTap">
