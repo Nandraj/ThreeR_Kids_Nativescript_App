@@ -56,18 +56,15 @@ function viewModel() {
             }
         },
         onEngLabelTap: function (args) {
-            const label = args.object
-            const text = label.text
+            const text = viewModel.engWord
             numberSpeak(text, 'en-IN')
         },
         onGujLabelTap: function (args) {
-            const label = args.object
-            const text = label.text
+            const text = viewModel.gujWord
             numberSpeak(text, 'gu-IN')
         },
         onHinLabelTap: function (args) {
-            const label = args.object
-            const text = label.text
+            const text = viewModel.hindiWord
             numberSpeak(text, 'hi-IN')
         },
 

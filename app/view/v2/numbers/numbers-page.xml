@@ -8,12 +8,42 @@
     </ActionBar>
     <GridLayout rows="*, auto">
         <GridLayout row="0" rows="*,*,*" columns="*, *">
-            <Label row="0" col="0" text="{{ engNum }}" class="numLabel" />
-            <Label row="0" col="1" text="{{ engWord }}" class="numWordLabel" tap="{{ onEngLabelTap }}" />
-            <Label row="1" col="0" text="{{ gujNum }}" class="numLabel" />
-            <Label row="1" col="1" text="{{ gujWord }}" class="numWordLabel" tap="{{ onGujLabelTap }}" />
-            <Label row="2" col="0" text="{{ hindiNum }}" class="numLabel" />
-            <Label row="2" col="1" text="{{ hindiWord }}" class="numWordLabel" tap="{{ onHinLabelTap }}" />
+            <Button row="0" col="0" tap="{{ onEngLabelTap }}">
+                <FormattedString>
+                    <Span text="{{ engNum }}" class="numLabel"></Span>
+                </FormattedString>
+            </Button>
+            <Button row="0" col="1" tap="{{ onEngLabelTap }}">
+                <FormattedString>
+                    <Span text="{{ engWord }}" class="numWordLabel"></Span>
+                </FormattedString>
+            </Button>
+            <Button row="1" col="0" tap="{{ onGujLabelTap }}">
+                <FormattedString>
+                    <Span text="{{ gujNum }}" class="numLabel"></Span>
+                </FormattedString>
+            </Button>
+            <Button row="1" col="1" tap="{{ onGujLabelTap }}">
+                <FormattedString>
+                    <Span text="{{ gujWord }}" class="numWordLabel"></Span>
+                </FormattedString>
+            </Button>
+            <Button row="2" col="0" tap="{{ onHinLabelTap }}">
+                <FormattedString>
+                    <Span text="{{ hindiNum }}" class="numLabel"></Span>
+                </FormattedString>
+            </Button>
+            <Button row="2" col="1" tap="{{ onHinLabelTap }}">
+                <FormattedString>
+                    <Span text="{{ hindiWord }}" class="numWordLabel"></Span>
+                </FormattedString>
+            </Button>
+            <!-- <Label row="0" col="0" text="{{ engNum }}" class="numLabel" /> -->
+            <!-- <Label row="0" col="1" text="{{ engWord }}" class="numWordLabel" tap="{{ onEngLabelTap }}" /> -->
+            <!-- <Label row="1" col="0" text="{{ gujNum }}" class="numLabel" /> -->
+            <!-- <Label row="1" col="1" text="{{ gujWord }}" class="numWordLabel" tap="{{ onGujLabelTap }}" /> -->
+            <!-- <Label row="2" col="0" text="{{ hindiNum }}" class="numLabel" /> -->
+            <!-- <Label row="2" col="1" text="{{ hindiWord }}" class="numWordLabel" tap="{{ onHinLabelTap }}" /> -->
         </GridLayout>
         <GridLayout row="1" columns="*,*">
             <Button col="1" tap="{{ nextNum }}" text="Next" class="-rounded-lg next-prev-buttons" />
