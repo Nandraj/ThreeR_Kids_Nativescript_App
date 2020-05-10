@@ -1,0 +1,20 @@
+<Page xmlns:DrawingPad="nativescript-drawingpad" loaded="pageLoaded" actionBarHidden="true">
+    <ActionBar title="">
+        <StackLayout orientation="horizontal">
+            <Image src="~/images/3R2C/72.png" class="action-image"></Image>
+            <Label text=" Kids" class="action-label-v2"></Label>
+        </StackLayout>
+    </ActionBar>
+    <GridLayout rows="*, auto, auto, auto">
+        <GridLayout row="0">
+            <DrawingPad:DrawingPad id="drawingPad" height="100%" width="100%" penColor="{{ penColor }}" penWidth="{{ penWidth }}" />
+        </GridLayout>
+        <Border row="1" borderWidth="1" borderColor="gray"></Border>
+        <GridLayout row="2" columns="*, *, *" margin="1">
+            <Button col="0" backgroundColor="{{ penColor }}" tap="{{ showColorPicker }}" />
+            <Button col="1" text="Clear" tap="{{ clearPad }}" />
+            <Label col="2" text="{{ 'Pen : ' + penWidth }}" class="text-center" verticalAlignment="center" />
+        </GridLayout>
+        <Slider row="3" value="{{ penWidth }}" maxValue="20" minValue="1" />
+    </GridLayout>
+</Page>

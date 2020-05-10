@@ -66,6 +66,14 @@
             <StackLayout>
                 <Button class="home-large-buttons" tap="onTap">
                     <FormattedString>
+                        <Span text="&#xf1fc;" class="fas-button"></Span>
+                    </FormattedString>
+                </Button>
+                <Label text="Drawing" class="h1 text-center home-button-text"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Button class="home-large-buttons" tap="onTap">
+                    <FormattedString>
                         <Span text="&#xf129;" class="fas-button"></Span>
                     </FormattedString>
                 </Button>

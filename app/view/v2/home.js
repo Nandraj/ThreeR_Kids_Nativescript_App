@@ -7,6 +7,7 @@ const pagePath = {
     "About": "view/v2/about/about-page",
     "Add": "view/v2/math/add/math-add-page",
     "Substract": "view/v2/math/substract/math-substract-page",
+    "Drawing": "view/v2/drawPad/drawPad-page",
 }
 
 function onTap(args) {
