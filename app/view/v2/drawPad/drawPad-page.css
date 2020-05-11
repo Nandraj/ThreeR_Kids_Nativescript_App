@@ -11,4 +11,5 @@ Button {
     border-radius: 50%;
     margin: 0;
     height: 10%;
+    font-weight: 500;
 }
