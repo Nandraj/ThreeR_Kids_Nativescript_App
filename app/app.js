@@ -4,4 +4,4 @@ let application = require("tns-core-modules/application");
 // application.run({ moduleName: "view/v1/home" });
 
 // V2
-application.run({ moduleName: "view/v2/app-root" });
+application.run({ moduleName: "view/v3/app-root" });

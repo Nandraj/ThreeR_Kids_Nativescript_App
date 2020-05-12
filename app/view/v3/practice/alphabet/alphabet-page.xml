@@ -1,0 +1,20 @@
+<Page actionBarHidden="true" xmlns:DrawingPad="nativescript-drawingpad" loaded="pageLoaded">
+    <GridLayout rows="*, auto, auto">
+        <StackLayout row="0" height="95%" width="95%">
+            <Label text="{{ labelValue }}" class="labelValue" textAlignment="center" />
+        </StackLayout>
+        <GridLayout row="0">
+            <DrawingPad:DrawingPad id="drawingPad" height="100%" width="100%" penColor="{{ penColor }}" penWidth="{{ penWidth }}" />
+        </GridLayout>
+        <GridLayout row="1" columns="*, *, *, *" margin="1">
+            <Button col="0" tap="{{ prevLabel }}" text="Previous" />
+            <Button col="1" backgroundColor="{{ penColor }}" tap="{{ showColorPicker }}" />
+            <Button col="2" text="Clear" tap="{{ clearPad }}" />
+            <Button col="3" tap="{{ nextLabel }}" text="Next" />
+        </GridLayout>
+        <GridLayout row="2" columns="auto, *">
+            <Label col="0" text="{{ 'Width : ' + penWidth }}" class="text-center m-l-8" verticalAlignment="center" />
+            <Slider col="1" value="{{ penWidth }}" maxValue="20" minValue="11" />
+        </GridLayout>
+    </GridLayout>
+</Page>

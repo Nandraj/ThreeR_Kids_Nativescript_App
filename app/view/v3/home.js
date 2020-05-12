@@ -1,0 +1,27 @@
+const pagePath = {
+    "Alphabets": "view/v2/alphabets/alphabets-page",
+    "Numbers": "view/v2/numbers/numbers-page",
+    "કલમ": "view/v2/kalam/kalam-page",
+    "Days": "view/v2/days/days-page",
+    "Months": "view/v2/months/months-page",
+    "About": "view/v2/about/about-page",
+    "Add": "view/v2/math/add/math-add-page",
+    "Substract": "view/v2/math/substract/math-substract-page",
+    "Drawing": "view/v2/drawPad/drawPad-page",
+    "Practice": "view/v3/practice/practice-page",
+}
+
+function onTap(args) {
+    const labelText = args.object.parent.getChildAt(1).text
+    goToPath = pagePath[labelText]
+    var navigationEntry = {
+        moduleName: goToPath,
+        transition: {
+            name: "slideBottom"
+        }
+    }
+    const page = args.object.page
+    page.frame.navigate(navigationEntry)
+}
+
+exports.onTap = onTap

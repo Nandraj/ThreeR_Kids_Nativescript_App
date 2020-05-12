@@ -1,0 +1,21 @@
+Slider {
+    margin: 5;
+}
+
+Label {
+    font-size: 20;
+    margin: 0;
+}
+
+Button {
+    border-radius: 50%;
+    margin: 0;
+    height: 10%;
+    font-weight: 500;
+}
+
+.labelValue {
+    font-size: 400%;
+    color: lightgray;
+    margin: -90;
+}

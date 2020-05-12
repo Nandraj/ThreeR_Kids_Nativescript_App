@@ -1,0 +1,38 @@
+<Page>
+    <ActionBar title="">
+        <StackLayout orientation="horizontal">
+            <Image src="~/images/3R2C/72.png" class="action-image"></Image>
+            <Label text=" Kids" class="action-label-v2"></Label>
+        </StackLayout>
+    </ActionBar>
+
+    <Tabs>
+        <TabStrip>
+            <TabStripItem>
+                <Label text="Abc"></Label>
+            </TabStripItem>
+            <TabStripItem>
+                <Label text="કખગ"></Label>
+            </TabStripItem>
+            <TabStripItem>
+                <Label text="૧૨૩"></Label>
+            </TabStripItem>
+            <TabStripItem>
+                <Label text="123"></Label>
+            </TabStripItem>
+        </TabStrip>
+
+        <TabContentItem>
+            <Frame defaultPage="view/v3/practice/alphabet/alphabet-page"></Frame>
+        </TabContentItem>
+        <TabContentItem>
+            <Frame defaultPage="view/v3/practice/kalam/kalam-page"></Frame>
+        </TabContentItem>
+        <TabContentItem>
+            <Frame defaultPage="view/v3/practice/gujNum/gujNum-page"></Frame>
+        </TabContentItem>
+        <TabContentItem>
+            <Frame defaultPage="view/v3/practice/engNum/engNum-page"></Frame>
+        </TabContentItem>
+    </Tabs>
+</Page>
